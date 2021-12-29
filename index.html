@@ -33,7 +33,7 @@
                     <h2><strong>a better way to camp</strong></h2>
                 </div>
                 <div class="col-md-4 col-xl-2 mt-4">
-                    <a role="button" class="btn btn-lg btn-info" data-toggle="modal"
+                    <a role="button" class="btn btn-lg btn-info" id="reserveButton"
                         data-target="#reserveModal"><strong>Reserve Campsite</strong></a>
                 </div>
             </div>
@@ -44,7 +44,7 @@
     <div id="reserveModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-header bg-info text-white">
+                <div class="modal-header ">
                     <h3 class="modal-title">Reserve a Campsite.</h3>
                     <button type="button" class="close" data-dismis="modal">&times;</button>
                 </div>
@@ -117,7 +117,7 @@
                             Contact</a></li>
                 </ul>
                 <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <a role="button" id="loginButton" data-target="#loginModal">
                         <i class="fa fa-sign-in"></i><strong>Login</strong>
                     </a>
                 </span>
